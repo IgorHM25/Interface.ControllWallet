@@ -1,0 +1,218 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: rgb(238, 238, 238);
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(to right, #0096FF, #5603BD);
+    border-bottom: 1px solid rgb(220, 211, 211);
+}
+
+.area {
+    width: 1250px;
+    height: 70px;
+    margin: 0px auto;
+}
+
+.logo {
+    float: left;
+    padding: 12px;
+    color: rgb(236, 240, 241);
+    font-size: 25px;
+}
+
+.menu {
+    float: right;
+    padding: 26px;
+}
+
+a {
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(236, 240, 241);
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#form {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    padding: 60px;
+    width: 1300px;
+    color: #2b343b;
+}
+
+.title {
+    font-size: 1.8em;
+    margin-bottom: 40px;
+    margin-top: -30px;
+}
+
+.input {
+    width: 500px;
+    border-radius: 22px;
+    border: 2px #6f7e8a solid;
+    padding: 5px;
+    margin: 0px 0px 12px -5px;
+}
+
+
+.input2 {
+    width: 60px;
+    border-radius: 22px;
+    border: 2px #6f7e8a solid;
+    padding: 5px;
+    margin: 0px 0px 12px -5px;
+}
+
+.input2 select {
+    width: 50px;
+    border: none;
+    background: rgb(238, 238, 238);
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    transform: translateY(-10%);
+    color: #2b343b;
+    font-size: 11pt;
+}
+
+.input i {
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+.input2 i {
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+.input input {
+    width: 80%;
+    border: none;
+    background: rgb(238, 238, 238);
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    transform: translateY(-10%);
+    color: #2b343b;
+    font-size: 11pt;
+}
+
+.input3 {
+    width: 80px;
+    border-radius: 22px;
+    border: 2px #6f7e8a solid;
+    padding: 5px;
+    margin: 0px 0px 12px -5px;
+}
+
+.input3 select {
+    width: 50px;
+    border: none;
+    background: rgb(238, 238, 238);
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    transform: translateY(-10%);
+    color: #2b343b;
+    font-size: 11pt;
+}
+
+#btn {
+    margin-top: -40px;
+    width: 320px;
+    text-align: center;
+    margin-left: 900px;
+}
+
+#btn button {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #0096FF, #5603BD);
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+#btn button:hover {
+    background: linear-gradient(to right, #0189eb, #4b01a5);
+}
+
+.nome {
+    width: 500px;
+}
+
+.Cnpj {
+    width: 500px;
+    float: right;
+    margin-top: -70px;
+}
+
+.razao {
+    width: 500px;
+}
+
+.cliente {
+    width: 100px;
+
+}
+
+.fornecedor {
+    width: 100px;
+    margin-left: 100px;
+    margin-top: -72px;
+}
+
+.Cep {
+    width: 500px;
+    float: right;
+    margin-top: -142px;
+}
+
+.End {
+    width: 500px;
+    float: right;
+    margin-top: -65px;
+}
+
+.CID {
+    float: right;
+    width: 500px;
+    margin-top: 5px;
+    margin-left: 400px;
+}
+
+.EST {
+    float: right;
+    width: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 2px;
+}
+
+.telefone input {
+    padding: 5px;
+    width: 170px;
+}
+
+.celular input {
+    padding: 5px;
+    width: 170px;
+}
